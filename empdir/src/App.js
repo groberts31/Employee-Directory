@@ -1,5 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
+
 
 function App() {
   return (
@@ -7,7 +11,7 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-        
+
         </Wrapper>
         <Footer />
       </div>

@@ -3,6 +3,7 @@ import PageWorking from "./components/Page";
 import EmployeeInfo from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import employees from "./employees.json";
+import Search from "./components/Search";
 
 class App extends Component {
 

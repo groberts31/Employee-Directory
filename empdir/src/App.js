@@ -3,7 +3,7 @@ import PageWorking from "./components/Page";
 import EmployeeInfo from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import employees from "./employees.json";
-import Search from "./components/Search";
+import Search from "./components/Filter";
 
 class App extends Component {
 
@@ -27,6 +27,17 @@ class App extends Component {
       })
       this.setState({ employees: currentEmployees });
     }
+
+    // sortRole = event => {
+    //     let currentEmployees = this.state.employees
+    //     .sort(function(a, b) {
+    //       if(a.role.value < b.role.value) return -1;
+    //       if(a.role.value > b.role.value) return 1;
+    //       return 0;
+    //     })
+    //     this.setState({ employees: currentEmployees });
+    //   }
+  
     
     render() {
       const filteredEmployees = this.state.employees.filter((employee) => { 
@@ -40,6 +51,7 @@ class App extends Component {
           <Search
           handleInputChange={this.handleInputChange}
           sortName={this.sortName}
+          sortRole={this.sortRole}
           search={this.state.search}/>
           
           {filteredEmployees.map(employee => (

@@ -2,70 +2,70 @@
     {
       "id": 1,
       "name": "Kay Meyers",
-      "image": "/Employee-Directory/empdir/src/images/img1.png",
+      "image": "/images/img1.png",
       "role": "Supervisor",
       "contact": "employee1@employee.com"
     },
     {
       "id": 2,
       "name": "John Doe",
-      "image": "/Employee-Directory/empdir/src/images/img2.png",
+      "image": "/images/img2.png",
       "role": "Team Leader",
       "contact": "employee2@employee.com"
     },
     {
       "id": 3,
       "name": "Michelle Johnson",
-      "image": "/Employee-Directory/empdir/src/images/img3.png",
+      "image": "/images/img3.png",
       "role": "Analyst",
       "contact": "employee3@employee.com"
     },
     {
       "id": 4,
       "name": "Brad Router",
-      "image": "/Employee-Directory/empdir/src/images/img4.png",
+      "image": "/images/img4.png",
       "role": "Analyst",
       "contact": "employee4@employee.com"
     },
     {
       "id": 5,
       "name": "Jimmy Valentine",
-      "image": "/Employee-Directory/empdir/src/images/img5.png",
+      "image": "/images/img5.png",
       "role": "Specialist",
       "contact": "employee5@employee.com"
     },
     {
       "id": 6,
       "name": "Mary Kay",
-      "image": "/Employee-Directory/empdir/src/images/img6.png",
+      "image": "/images/img6.png",
       "role": "Specialist",
       "contact": "employee6@employee.com"
     },
     {
       "id": 7,
       "name": "Christina Thomas",
-      "image": "/Employee-Directory/empdir/src/images/img7.png",
+      "image": "/images/img7.png",
       "role": "Specialist",
       "contact": "employee7@employee.com"
     },
     {
       "id": 8,
       "name": "CJ Dunn",
-      "image": "/Employee-Directory/empdir/src/images/img8.png",
+      "image": "/images/img8.png",
       "role": "Specialist",
       "contact": "employee8@employee.com"
     },
     {
       "id": 9,
       "name": "Tommy Davis",
-      "image": "/Employee-Directory/empdir/src/images/img9.png",
+      "image": "/images/img9.png",
       "role": "Specialist",
       "contact": "employee9@employee.com"
     },
     {
       "id": 10,
       "name": "Leah Cupcake",
-      "image": "/Employee-Directory/empdir/src/images/img10.png",
+      "image": "/images/img10.png",
       "role": "Specialist",
       "contact": "employee10@employee.com"
     }

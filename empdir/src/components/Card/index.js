@@ -13,7 +13,7 @@ function EmployeeInfo(props) {
             <strong>Employee Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Role:</strong> {props.occupation}
+            <strong>Role:</strong> {props.role}
           </li>
           <li>
             <strong>Contact:</strong> {props.contact}

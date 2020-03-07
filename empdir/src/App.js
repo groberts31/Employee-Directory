@@ -3,7 +3,7 @@ import PageWorking from "./components/Page";
 import EmployeeInfo from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import employees from "./employees.json";
-import Search from "./components/Search";
+// import Search from "./components/Search";
 
 class App extends Component {
 
@@ -36,12 +36,12 @@ class App extends Component {
       return (
         <Wrapper>
           <PageWorking />
-          <Search
+          {/* <Search
             handleInputChange={this.handleInputChange}
             sortName={this.sortName}
             search={this.state.search}
           >
-          </Search>
+          </Search> */}
           {filteredEmployees.map(employee => (
             <EmployeeInfo
               id={employee.id}

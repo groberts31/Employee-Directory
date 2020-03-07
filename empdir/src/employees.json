@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "name": "Jon Doe",
+      "name": "John Doe",
       "image": "/Employee-Directory/empdir/src/images/img2.png",
       "role": "Team Leader",
       "contact": "employee2@employee.com"

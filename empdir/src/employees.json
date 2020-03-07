@@ -3,70 +3,70 @@
       "id": 1,
       "name": "Kay Meyers",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Supervisor",
+      "contact": "employee1@employee.com"
     },
     {
       "id": 2,
       "name": "Jon Doe",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Team Leader",
+      "contact": "employee2@employee.com"
     },
     {
       "id": 3,
       "name": "Michelle Johnson",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Analyst",
+      "contact": "employee3@employee.com"
     },
     {
       "id": 4,
       "name": "Brad Router",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Analyst",
+      "contact": "employee4@employee.com"
     },
     {
       "id": 5,
       "name": "Jimmy Valentine",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Specialist",
+      "contact": "employee5@employee.com"
     },
     {
       "id": 6,
       "name": "Mary Kay",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Specialist",
+      "contact": "employee6@employee.com"
     },
     {
       "id": 7,
       "name": "Christina Thomas",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Specialist",
+      "contact": "employee7@employee.com"
     },
     {
       "id": 8,
       "name": "CJ Dunn",
       "image": "",
-      "role": "",
-      "contact": ""
+      "role": "Specialist",
+      "contact": "employee8@employee.com"
     },
     {
       "id": 9,
       "name": "Tommy Davis",
       "image": "",
-      "role": "",
-      "contact": "tommy.parker@example.com"
+      "role": "Specialist",
+      "contact": "employee9@employee.com"
     },
     {
       "id": 10,
       "name": "Lee Cupcake",
       "image": "",
       "role": "",
-      "contact": ""
+      "contact": "employee10@employee.com"
     }
 ]

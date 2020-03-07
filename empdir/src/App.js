@@ -5,7 +5,11 @@ import EmployeeInfo from "./components/EmployeeInfo";
 
 
 function App() {
-  return <PageWorking />;
+  return 
+  <div>
+    <PageWorking />
+  <EmployeeInfo />
+  </div>;
 }
 
 export default App;

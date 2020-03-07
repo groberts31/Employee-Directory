@@ -3,7 +3,7 @@ import PageWorking from "./components/Page";
 import EmployeeInfo from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import employees from "./employees.json";
-// import Search from "./components/Search";
+import Search from "./components/Search";
 
 class App extends Component {
 
@@ -21,8 +21,8 @@ class App extends Component {
     sortName = event => {
       let currentEmployees = this.state.employees
       .sort(function(a, b) {
-        if(a.name.toLowerCase() < b.name.toLowerCase()) return -1;
-        if(a.name.toLowerCase() > b.name.toLowerCase()) return 1;
+        if(a.name.value < b.name.value) return -1;
+        if(a.name.value > b.name.value) return 1;
         return 0;
       })
       this.setState({ employees: currentEmployees });
@@ -36,12 +36,12 @@ class App extends Component {
       return (
         <Wrapper>
           <PageWorking />
-          {/* <Search
-            handleInputChange={this.handleInputChange}
-            sortName={this.sortName}
-            search={this.state.search}
-          >
-          </Search> */}
+          <br />
+          <Search
+          handleInputChange={this.handleInputChange}
+          sortName={this.sortName}
+          search={this.state.search}/>
+          
           {filteredEmployees.map(employee => (
             <EmployeeInfo
               id={employee.id}

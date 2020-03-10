@@ -1,0 +1,11 @@
+.form-control {
+    background-color: lightgrey;
+    font-style: italic;
+    border: solid black;
+    font-weight: bold;
+    width: 50%;
+}
+
+.input-group {
+    border: solid black;
+}

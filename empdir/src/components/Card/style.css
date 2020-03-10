@@ -1,0 +1,7 @@
+.card {
+    background-color: lightGrey;
+    border: solid black;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}

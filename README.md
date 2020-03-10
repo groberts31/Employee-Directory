@@ -2,7 +2,7 @@
 
 ## Overview
 
-<p>For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.</p>
+<p>This app is an employee directory with React. You will be able to view all employees within this directory and also sort by name through the input field located near the top of the page. When selecting an employee you will notice that it is case sensitive so if it doesn't directly match the employees name then the employee will not be found.</p>
 
 ## User Story
 
